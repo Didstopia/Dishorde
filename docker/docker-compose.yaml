@@ -1,0 +1,16 @@
+services:
+
+  dishorde:
+    image: didstopia/dishorde:latest
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile
+    restart: "no"
+    env_file: ../.env
+    # environment:
+    #   FOO: bar
+    # volumes:
+    #   - dishorde-data:/app
+
+# volumes:
+#   dishorde-data:

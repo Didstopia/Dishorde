@@ -1,3 +1,11 @@
+# Builds, binaries etc.
+dist/
+
+# Environment variables
+.env
+.env.*
+.env*
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

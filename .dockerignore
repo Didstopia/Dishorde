@@ -1,0 +1,17 @@
+.github/
+.git/
+dist/
+docker/
+node_modules/
+*.md
+*.sh
+*.bat
+
+.DS_Store
+Thumbs.db
+*.log
+
+# Environment variables
+.env
+.env.*
+.env*
